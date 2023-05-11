@@ -1,0 +1,71 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    font-size: 24px;
+}
+
+h1 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.text-muted {
+    display: block;
+    text-align: right;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.container h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.arrow_left::before {
+    content: "";
+    color: white;
+    border: 1px solid black;
+    width: 21px;
+    height: 21px;
+    z-index: -1;
+    position: absolute; 
+    left: -10px;
+    top: 3px;
+    transform: rotate( 50grad);  
+}
+
+.arrow_right::after {
+    content: "";
+    color: white;
+    border: 1px solid black;
+    width: 21px;
+    height: 21px;
+    z-index: -1;
+    position: absolute; 
+    right: -10px;
+    top: 3px;
+    transform: rotate( 50grad); 
+}
+
+.col-2 {
+    font-size: .5vw;
+    white-space: nowrap;
+    line-height: 27px;
+}
+
+.col-3 {
+    font-size: 1vw;
+    white-space: nowrap;
+}
+
+.card img {
+    width: 100%;
+}
+
+.more {
+    font-size: 25px;
+}
